@@ -1,0 +1,11 @@
+EDITA EL ARCHIVO supabase-config.js DE ESTA MISMA CARPETA.
+
+Necesitas:
+1) Project URL de Supabase.
+2) Publishable key (sb_publishable_...).
+3) Correo de dcolan.
+4) Correo de avillanueva.
+5) Correo de ctejada.
+
+Cambia enabled a true.
+NO uses Secret key ni service_role.
