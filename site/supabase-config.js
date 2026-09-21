@@ -4,13 +4,15 @@
 // 3) Cambia enabled a true.
 // IMPORTANTE: usa SOLO la Publishable/Anon Key. NUNCA pongas la service_role/secret key en este archivo.
 
-window.PORTAL_CONFIG = {
-  enabled: false,
-  supabaseUrl: "PEGA_AQUI_TU_PROJECT_URL",
-  supabaseAnonKey: "PEGA_AQUI_TU_PUBLISHABLE_O_ANON_KEY",
+window.SUPABASE_CONFIG = {
+  enabled: true,
+  url: "https://ilvqqwsbnghliqspkahi.supabase.co",
+  key: "sb_publishable_m8-H94_kHmt_UznV7i_DYg_x2jrAax7",
+
   users: {
-    dcolan: "dcolan@TU_DOMINIO.com",
-    avillanueva: "avillanueva@TU_DOMINIO.com",
-    ctejada: "ctejada@TU_DOMINIO.com"
+    dcolan: "dcolan@auditoria.medica",
+    avillanueva: "avillanueva@auditoria.medica",
+    ctejada: "ctejada@auditoria.medica"
   }
 };
+
